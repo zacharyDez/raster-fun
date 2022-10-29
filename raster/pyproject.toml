@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "raster"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pystac = "^1.6.1"
+jupyterlab = "^3.5.0"
+pystac-client = "^0.5.1"
+geopandas = "^0.12.1"
+rich = "^12.6.0"
+planetary-computer = "^0.4.7"
+rioxarray = "^0.12.3"
+matplotlib = "^3.6.1"
+xarray = "^2022.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
